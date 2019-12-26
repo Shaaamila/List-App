@@ -8,11 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name:string  = 'muli';
 
-  constructor() {
-  	this.changeName('buli');
+
   }
 
-  changeName(name:string):void {
-  	this.name = name;
-  }
-}
