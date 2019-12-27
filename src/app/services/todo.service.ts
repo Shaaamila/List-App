@@ -31,7 +31,7 @@ export class TodoService {
 
 //add todo
 addTodo(todo:Todo):Observable<Todo> {
-  return this.http.post<Todo>(this.todosUrl, todo, httpOptions);
+  return this.http.post<Todo >(this.todosUrl, todo, httpOptions);
 }
 
   //toggle complete
